@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    height: 400px;
+    box-shadow: black 0px 0px 10px inset;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: rgb(120, 100, 80);
+    margin: 50px auto 0px;
+    border-radius: 3px;
+    background: #E24E3F;
+    position:relative;
+    
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.container .box .pixel label{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    display: block;
+    cursor: pointer;
+}
+
+.container .box .pixel input{
+    display: none;
+
+}
+
+.container .box .pixel:hover label{
+    background:gray;
+    opacity:0.8;
+}
+
+.container .box .pixel input:checked +label{
+    background: #fff;
+    border:1px solid #fff;
+}

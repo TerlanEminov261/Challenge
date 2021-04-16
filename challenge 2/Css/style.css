@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Section */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px inset grey;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #786450;
+    background: rgb(223, 196, 123);
+    background: linear-gradient(90deg, rgba(223, 196, 123, 1) 0%, rgba(215, 159, 14, 1) 39%, rgba(241, 173, 23, 1) 74%, rgba(185, 114, 13, 1) 100%);
+}
+/* Box-All Section */
+.container .box-all{
+    display:flex;
+    width: 320px;
+    height: 300px;
+    align-self: center;
+    background: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 1px 1px rgb(196, 192, 192);
+    display:flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+/* Head Section */
+.container .box-all .head{
+    align-self: center;
+    margin-left:40px;
+    flex-direction: column;
+    
+      
+}
+
+.container .box-all .head img{
+    width: 82px;
+    height: 82px;
+    border:2px solid grey;
+    outline-width: 50%;
+    border-radius: 50%;
+    margin:10px;
+    position: relative;
+    left:10px;
+    
+    
+}
+
+.container .box-all .head img:hover{
+    border:1px solid grey;
+    cursor: pointer;
+}
+
+.container .box-all .head h3{
+    font-size:15px;
+    position: relative;
+    left:10px;
+    
+    
+}
+
+.container .box-all .head button{
+    width:120px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 2px;
+    color:#786450;
+    background:#FFFFFF;
+    margin:8px;
+    position: relative;
+    right: 7px;
+    
+}
+
+.container .box-all .head button:hover{
+    color:white;
+    background: rgba(185, 114, 13, 1);
+}
+
+
+
+/* Box-Three Section */
+.container .box-all .box-three{
+    display:flex;
+    flex-direction: column;
+    color:#786450;
+    
+}
+
+.container .box-all .box-three .box1{
+    width:120px;
+    height:99px;
+    background: #F5E8DF;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    flex-direction: column;
+    display:flex;
+    
+}
+
+.container .box-all .box-three .box1:hover{
+    background: rgb(223,196,123);
+    transition: 2s;
+}
+
+.container .box-all .box-three .box2{
+    width:120px;
+    height:99px;
+    background: #F5E8DF;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    flex-direction: column;
+    display:flex;
+    
+}
+.container .box-all .box-three .box2:hover{
+    background: rgb(223,196,123);
+    transition: 2s;
+}
+
+
+.container .box-all .box-three .box3{
+    width:120px;
+    height:99px;
+    background: #F5E8DF;
+    text-align: center;
+    cursor: pointer;
+    flex-direction: column;
+    display:flex;
+    
+}
+
+.container .box-all .box-three .box3:hover{
+    background: rgb(223,196,123);
+    transition: 2s;
+}
+
+/* Special Class */
+
+.little-span{
+    font-size:11px;
+    
+}
+
+.big-span{
+    font-size:18px;
+    margin-top: 20px;
+}
